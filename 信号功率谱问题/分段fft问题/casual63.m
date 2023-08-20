@@ -61,12 +61,7 @@ fangda=0;
 figure;
 plot(psdData1(:,1),psdData1(:,2))
 
-%% 知乎 自定义周期图功率谱函数zhihu_fenduan_glp()，仍有误差
-% https://www.zhihu.com/collection/682800573
-fangda=0;
-[psdData2,Var_psd2]=zhihu_fenduan_glp(d,fs,fangda,duanshu);
-figure;
-plot(psdData2(1,1:N/duanshu/2),psdData2(2,1:N/duanshu/2))
+
 
 
 
